@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(217deg, rgba(2,0,36,1) 0%, rgba(45,45,220,1) 0%, rgba(0,212,255,1) 100%);
+    height: 100vh;
+}
+#navegador {
+    display: inline-block;
+    margin: 0 auto;
+}
+#navegador a{
+    padding: 8px 20px;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+}
