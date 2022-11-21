@@ -1,19 +1,72 @@
-<nav>
-    <a href="index.html">HOME</a>
-    <a href="about.html">ABOUT</a>
-    <a href="galery.html">GALERY</a>
-</nav>
+<!DOCTYPE html>
+<html lang="es">
 
-<form action="">
-    <label for="">Nombre: </label><input type="text"> <br>
-    <label for="">Email: </label><input type="email"> <br>
-    <label for="">Teléfono: </label><input type="number"> <br>
-    <label for="">Seleccione país</label> 
-    <select name="" id="">
-        <option value="">España</option>
-        <option value="">Argentina</option>
-        <option value="">Estados Unidos</option>
-    </select> <br>
-    <label for="">Mensaje: <textarea name="mensaje" id="" cols="30" rows="10"></textarea></label> <br>
-    <label for=""> <input type="checkbox" name="" id=""> Acepto terminos y condiciones</label>
-</form>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/38be327fde.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1 class="titulo">COLD PLAY</h1>
+
+        <nav id="navegador">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="galery.html">GALERIA</a>
+        </nav>
+    </header>
+    <form action="">
+        <label for="">Nombre: </label><input type="text"> <br>
+        <label for="">Email: </label><input type="email"> <br>
+        <label for="">Teléfono: </label><input type="number"> <br>
+        <label for="">Seleccione país</label>
+        <select name="" id="">
+            <option value="">España</option>
+            <option value="">Argentina</option>
+            <option value="">Estados Unidos</option>
+        </select> <br>
+        <label for="">Mensaje: <textarea name="mensaje" id="" cols="30" rows="10"></textarea></label> <br>
+        <label for=""> <input type="checkbox" name="" id=""> Acepto terminos y condiciones</label>
+    </form>
+
+    <footer class="footer">
+        <div class="footerSections">
+            <h3 class="titulosFooter">Nuestras redes</h3>
+            <div class="contenedorIconos">
+                <i class="iconos fa-brands fa-twitter"></i>
+                <i class="iconos fa-brands fa-facebook"></i>
+                <i class="iconos fa-brands fa-instagram"></i>
+                <br>
+                <i class="iconos fa-solid fa-envelope"></i>
+                <i class="iconos fa-brands fa-tiktok"></i>
+                <i class="iconos fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <div class="footerSections">
+            <h3 class="titulosFooter">Avisos</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quisquam iste facere minus dolor illum
+                doloremque enim ut sed autem eum cumque voluptas quasi rerum at odit molestiae, maxime vitae!</p>
+        </div>
+        <div class="footerSections">
+            <div class="contenedorListaFooter">
+                <div class="listaFooter">
+                    <h3 class="titulosFooter">Explorar</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="galery.html">Galeria</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>

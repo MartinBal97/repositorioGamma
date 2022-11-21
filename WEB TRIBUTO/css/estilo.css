@@ -25,6 +25,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+   /* position: sticky;*/
     padding: 1rem 0;
     background-color: rgba(0, 0, 0, 0.342);
     border-bottom: 2px black solid;
@@ -89,13 +90,15 @@ body {
 
 
 .contenedorMundo {
-    
+    margin: 5rem 0;
 }
 
 .mundoRotante {
     background-position: right;
-    width: 50rem;
+    width: 35rem;
     animation: rotation 25s infinite linear;
+    position: relative;
+    left: 65rem;
 }
 
 @keyframes rotation {
@@ -114,4 +117,49 @@ body {
 
 }
 
-.footer {}
+
+.footer {
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    background-color: rgb(13, 13, 102);
+    padding: 1.5rem;
+    font-family: var(--fuentePrincipal);
+}
+.footer .footerSections{
+    color: white;
+    width: 30%;
+    row-gap: 1rem;
+}
+.footer .contenedorIconos .iconos{
+    border-radius: 7px;
+    border: 3px white solid;
+    padding: 0.7rem;
+    margin: 0.7rem;
+    position: relative;
+    z-index: 100;
+}
+.footer .contenedorIconos .iconos:hover{
+    transition: 0.1s ease-in-out;
+    border: 5px white solid;
+}
+.footer .contenedorListaFooter{
+    display: flex;
+    margin-left: 4rem;
+}
+.footer .contenedorListaFooter .listaFooter{
+    width: 50%;
+}
+.titulosFooter {
+    font-weight: bold;
+    border-bottom: 3px solid white; 
+    margin-bottom: 1rem;
+}
+.footer .contenedorListaFooter .listaFooter ul li{
+    list-style: none;
+}
+.footer .contenedorListaFooter .listaFooter ul li a{
+    color: white;
+    text-decoration: none;
+
+}
